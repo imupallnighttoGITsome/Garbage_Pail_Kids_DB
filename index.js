@@ -1,10 +1,10 @@
 const express = require('express')
-const express = require('express')
 const app = express()
+const cardController = require('./controllers/cardcontroller')
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
-
+app.use('/gpk', cardController)
 
 
 

@@ -1,0 +1,95 @@
+// [
+//     {
+//       "name": "Rod Wad",
+//       "series": "35th Anniversary",
+//       "number": 2,
+//       "aOrb": "B",
+//       "fanFave": true,
+//       "yearReleased": 2020,
+//       "value": 0.75
+//     },
+//     {
+//         "name": "New Wave Dave",
+//         "series": "35th Anniversary",
+//         "number": 3,
+//         "aOrb": "A",
+//         "fanFave": true,
+//         "yearReleased": 2020,
+//         "value": 3.02
+//       },
+//       {
+//         "name": "Boozin' Bruce",
+//         "series": "35th Anniversary",
+//         "number": 5,
+//         "aOrb": "A",
+//         "fanFave": true,
+//         "yearReleased": 2020,
+//         "value": 3.75
+//       },
+//       {
+//         "name": "Geeky Gary",
+//         "series": "35th Anniversary",
+//         "number": 6,
+//         "aOrb": "B",
+//         "fanFave": true,
+//         "yearReleased": 2020,
+//         "value": 3.19
+//       },
+//       {
+//         "name": "Organ Nick",
+//         "series": "35th Anniversary",
+//         "number": 5,
+//         "aOrb": "B",
+//         "fanFave": false,
+//         "yearReleased": 2020,
+//         "value": 2.50
+//       },
+//       {
+//         "name": "Rex Specs",
+//         "series": "35th Anniversary",
+//         "number": 6,
+//         "aOrb": "B",
+//         "fanFave": false,
+//         "yearReleased": 2020,
+//         "value": 2.99
+//       },
+//       {
+//         "name": "Homer Repair",
+//         "series": "35th Anniversary",
+//         "number": 10,
+//         "aOrb": "B",
+//         "fanFave": false,
+//         "yearReleased": 2020,
+//         "value": 1.25
+//       },
+//       {
+//         "name": "Electric Carl",
+//         "series": "35th Anniversary",
+//         "number": 12,
+//         "aOrb": "B",
+//         "fanFave": false,
+//         "yearReleased": 2020,
+//         "value": ,
+//         "keywords": []
+//       },
+//       {
+//         "name": "",
+//         "series": "",
+//         "number": ,
+//         "aOrb": "",
+//         "fanFave": "",
+//         "yearReleased": "",
+//         "value": ,
+//         "keywords": []
+//       },
+//       {
+//         "name": "",
+//         "series": "",
+//         "number": ,
+//         "aOrb": "",
+//         "fanFave": "",
+//         "yearReleased": "",
+//         "value": ,
+//         "keywords": []
+//       }
+// ]
