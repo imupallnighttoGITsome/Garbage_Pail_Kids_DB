@@ -1,10 +1,16 @@
 const express = require('express')
 const router = express.Router()
 
-const Card = require('../models/cardmodel')
+const Cards = require('../models/cardmodel')
 
 router.get('/', (req, res, next) => {
-    res.send('index route working')
+    res.render('index')
+})
+
+router.get('/top15', (req, res, next) => {
+    Cards.find({})
+    .then((cards) => res.render('topcards', { cards }))
+    .catch(next)
 })
 
 module.exports = router

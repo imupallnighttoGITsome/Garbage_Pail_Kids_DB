@@ -12,5 +12,5 @@ const cardSchema = new mongoose.Schema({
     img: String,
 })
 
-const Card = mongoose.model('Card', cardSchema)
-module.exports = Card
+const Cards = mongoose.model('Cards', cardSchema)
+module.exports = Cards
