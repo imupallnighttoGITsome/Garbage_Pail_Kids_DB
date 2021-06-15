@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/imupallnighttoGITsome/Project-2-GA#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "mongoose": "^5.12.13"
+    "mongoose": "^5.12.14"
   }
 }

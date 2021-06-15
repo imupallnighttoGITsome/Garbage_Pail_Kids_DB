@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Nasty Nick",
+        "series": "1st Series",
+        "number": 1,
+        "aOrb": "a",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 7500,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-1a-Nasty-Nick.jpg"
+      },
+      {
+        "name": "Adam Bomb",
+        "series": "1st Series",
+        "number": 6,
+        "aOrb": "a",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 4000,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-8a-Adam-Bomb.jpeg"
+      },
+      {
+        "name": "Evil Eddie",
+        "series": "1st Series",
+        "number": 1,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 2200,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-1b-Evil-Eddie-1.jpg"
+      },
+      {
+        "name": "Schizo Fran",
+        "series": "2nd Series",
+        "number": 49,
+        "aOrb": "b",
+        "fanFave": false,
+        "yearReleased": 1985,
+        "value": 1000,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-49b-Schizo-Fran.jpeg"
+      },
+      {
+        "name": "Junky Jeff",
+        "series": "1st Series",
+        "number": 22,
+        "aOrb": "a",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 1000,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-22a-Junky-Jeff.jpeg"
+      },
+      {
+        "name": "Jay Decay",
+        "series": "1st Series",
+        "number": 5,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 900,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-5b-Jay-Decay.jpeg"
+      },
+      {
+        "name": "Nerdy Norm",
+        "series": "1st Series",
+        "number": 24,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 900,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-24b-Nerdy-Norm.jpeg"
+      },
+      {
+        "name": "Blasted Billy",
+        "series": "1st Series",
+        "number": 8,
+        "aOrb": "b",
+        "fanFave": false,
+        "yearReleased": 1985,
+        "value": 850,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-8b-Blasted-Billy.jpeg"
+      },
+      {
+        "name": "Brutal Brad",
+        "series": "2nd Series",
+        "number": 55,
+        "aOrb": "",
+        "fanFave": "b",
+        "yearReleased": 1985,
+        "value": 750,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-55b-Brutal-Brad.jpg"
+      },
+      {
+        "name": "Slobby Robbie",
+        "series": "1st Series",
+        "number": 26,
+        "aOrb": "a",
+        "fanFave": false,
+        "yearReleased": 1985,
+        "value": 750,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-26a-Slobby-Robbie.jpeg"
+      },
+      {
+        "name": "Leaky Lou",
+        "series": "1st Series",
+        "number": 23,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 700,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-23b-Leaky-Lou.jpeg"
+      },
+      {
+        "name": "Mean Gene",
+        "series": "1st Series",
+        "number": 41,
+        "aOrb": "a",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 700,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-41a-Mean-Gene.jpeg"
+      },
+      {
+        "name": "Electric Bill",
+        "series": "1st Series",
+        "number": 4,
+        "aOrb": "b",
+        "fanFave": false,
+        "yearReleased": 1985,
+        "value": 700,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-4b-Electric-Bill.jpeg"
+      },
+      {
+        "name": "Sumo Sid",
+        "series": "2nd Series",
+        "number": 83,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 650,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-83b-Sumo-Sid.jpeg"
+      },
+      {
+        "name": "Bad Breath Seth",
+        "series": "2nd Series",
+        "number": 70,
+        "aOrb": "a",
+        "fanFave": true,
+        "yearReleased": 1985,
+        "value": 600,
+        "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-70a-Bad-Breath-Seth.jpeg"
+      }
+]
