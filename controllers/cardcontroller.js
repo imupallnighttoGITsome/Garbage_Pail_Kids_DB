@@ -33,4 +33,7 @@ router.get('/gallery', (req, res, next) => {
     .then(cards => res.render('../partials/cardlayout', { cards }))
     .catch(next)
 })
+router.get('/foodfight/add', (req, res, next) => {
+    res.render('addcard')
+})
 module.exports = router

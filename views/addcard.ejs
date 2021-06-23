@@ -1,0 +1,28 @@
+
+
+
+
+<svg width="500" height="600">
+  <defs>
+    <filter id="filter" height="1.4" width="1.4">
+      <feTurbulence baseFrequency="0.12" numOctaves="2" type="fractalNoise" result="result1" />
+      <feDisplacementMap in2="result1" scale="99" result="result2" xChannelSelector="R" in="SourceGraphic" />
+      <feComposite in2="result2" in="SourceGraphic" operator="atop" result="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <rect fill="yellow" filter="url(#filter)" width="500" height="600" x="0" y="0" />
+  <foreignObject width="500" height="600">
+    <div class="form" style="width: 450px; height: 550px; display: flex; align-items: center; flex-direction: column; justify-content: center;>
+        <form method="GET" action="/gpk/foodfight/add">
+            <label>Name:<input type="text" name="name" style="background-color: rgb(65, 62, 62, .3);"></label><br>
+            <label>Number:<input type="number" name="number"></label><br>
+            <label>A or B:</label><input type="checkbox" name="letter"><br>
+            <label>Year:</label><input type="number" name="year"><br>
+            <label>Value:</label><input type="number" name="value"><br>
+            <label>Image:</label><input type="url" name="image">
+            <button type="submit">Send</button>
+          </form>
+   
+    </div>
+  </foreignObject>
+</svg>
