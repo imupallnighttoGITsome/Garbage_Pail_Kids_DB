@@ -1,0 +1,67 @@
+[
+    {
+        "cardName": "Grimm Lynn",
+        "price": "25.00",
+        "artist": "Rhys Cooper",
+        "website": "https://studioseppuku.bigcartel.com/",
+        "img": "//4.bp.blogspot.com/-owO9oWvDKnY/TmKzzV5y6zI/AAAAAAAAAj8/Jakj2lP3_Wk/s320/RhysCooper_GPK_GREMLIN_large.jpg" 
+    },
+
+    {
+        "cardName": "Chester Burst",
+        "price": "175.00",
+        "artist": "Rhys Cooper",
+        "website":"https://studioseppuku.bigcartel.com/",
+        "img": "https://lh5.googleusercontent.com/proxy/grR0sOCRopsljoY2U7PMIQpmdgpXRB_buwSK2sfjXt7Bgorz7Hmc4za7FTZF86I9pP7BS_V6RT6EQLLb8yMJwNIxoKt_PIY2HfRWbnF_EK0W9WOrnjYIt8z30KOazJgtQ9rCM_VzshoXQnl5TQ=s0-d"
+    },
+
+    {
+        "cardName": "Betel Breuse",
+        "price": "N/A",
+        "artist": "Rhys Cooper",
+        "website": "https://studioseppuku.bigcartel.com/",
+        "img": "https://lh4.googleusercontent.com/proxy/biyRrrsXy15PY1MEHbNOXfDtVg6KJLLy67gi6zDumggNxzKCjC_gsPg45PZ7gjtphDD9jXcSkTaD2rrsSTP_XHMph2TvXNWhtjvgJICp9ZqJWROrfaCaIBBuUAvl7dYacnDrFROMQ2mupfk3ttW41Axcvg=s0-d"
+    },
+    {
+        "cardName": "Michael Mutant",
+        "price": "40.00",
+        "artist": "Derek Deal",
+        "website": "https://deal.bigcartel.com/",
+        "img": "https://lh3.googleusercontent.com/proxy/z24PDNukaSPixH-OUdirV7rqfpqBYyFN-2OO6PA4GOMoGJlwWzGlb53l9H2O8e5UQ84oaTngu8zN9j9L2iXY5-K06hIfyMz1zduvdvLjeOYKBtXCMDA7MMpYdjLlQJr1hV7WWG-fWw-T-znUNT3qDplh=s0-d" 
+    },
+    {
+        "cardName": "Mad Donna",
+        "price": "300.00",
+        "artist": "Layron DeJarnette",
+        "website": "http://www.dejarnettedesigns.com/",
+        "img": "//1.bp.blogspot.com/-bVr9O35qlZM/TY0anVkgpuI/AAAAAAAAApA/jygsG518mv8/s320/Mad+Donna+FINAL+150.jpg"
+    },
+    {
+        "cardName": "Plucky Chucky",
+        "price": "350.00",
+        "artist": "Layron DeJarnette",
+        "website": "http://www.dejarnettedesigns.com/",
+        "img": "//3.bp.blogspot.com/-osvFU9-xF3M/TY38t0hME3I/AAAAAAAAApU/MAwkwy9qfPI/s320/Chucky+FINAL+150.jpg"
+    },
+    {
+        "cardName": "Rammed Manny",
+        "price": "100.00",
+        "artist": "Layron DeJarnette",
+        "website": "http://www.dejarnettedesigns.com/",
+        "img": "//4.bp.blogspot.com/_7Yird0bDYkQ/S8KLNXmOHKI/AAAAAAAAAbY/X5OB1KgY1Mo/s320/Rammed+Manny.jpg"
+    },
+    {
+        "cardName": "Dreadful Pirate Rous",
+        "price": "20.00",
+        "artist": "Layron DeJarnette",
+        "website": "http://www.dejarnettedesigns.com/",
+        "img": "//2.bp.blogspot.com/_7Yird0bDYkQ/TCS6-OqbthI/AAAAAAAAAeo/5vDQj-NzpAk/s320/Dreadful+Pirate+ROUS.jpg"
+    },
+    {
+        "cardName": "Darth Vadinator",
+        "price": "400.00",
+        "artist": "Layron DeJarnette",
+        "website": "http://www.dejarnettedesigns.com/",
+        "img": "//4.bp.blogspot.com/_7Yird0bDYkQ/S8KLNGaP_DI/AAAAAAAAAbQ/KL-Lg6W6IPA/s320/Darth+Vadinator.jpg"
+    }
+]

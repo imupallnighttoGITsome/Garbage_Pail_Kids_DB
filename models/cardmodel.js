@@ -5,9 +5,9 @@ const cardSchema = new mongoose.Schema({
     name: String,
     series: String,
     number: Number,
-    aOrB: String,
-    fanFavorite: Boolean,
-    yearRealeased: Number,
+    aOrb: String,
+    fanFave: Boolean,
+    yearReleased: Number,
     value: Number,
     img: String,
 })

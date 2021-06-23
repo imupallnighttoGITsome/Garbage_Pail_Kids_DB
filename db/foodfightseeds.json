@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Adam Appetite",
+        "series": "Food Fight",
+        "number": 1,
+        "aORb": "a",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 5.00,
+        "img": "https://i.imgur.com/pqkRLlv.jpg"
+    },
+    {
+        "name": "Flavortown Fieri",
+        "series": "Celebrity Chefs",
+        "number": 6,
+        "aORb": "b",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 2.00,
+        "img": "https://i.imgur.com/LQhujTR.jpg"
+    },
+    {
+        "name": "Gummy Gunther",
+        "series": "Food Fight",
+        "number": 1,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 1.95,
+        "img": "https://i.imgur.com/q9QtZpn.jpeg"
+    },
+    {
+        "name": "Buttercream Maxine",
+        "series": "Food Fight",
+        "number": 2,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 0.70,
+        "img": "https://i.imgur.com/P4BQWgI.jpeg"
+    },
+    {
+        "name": "Choke-a-lot Chip",
+        "series": "Food Fight",
+        "number": 3,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 1.59,
+        "img": "https://i.imgur.com/evAuGyb.jpg"
+    },
+    {
+        "name": "Noodle Harriet",
+        "series": "Food Fight",
+        "number": 4,
+        "aOrb": "a",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 1.95,
+        "img": "https://i.imgur.com/c02wOED.jpg"
+    },
+    {
+        "name": "Betty Spaghetti",
+        "series": "Food Fight",
+        "number": 4,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 1.75,
+        "img": "https://i.imgur.com/3ZmJaM1.jpg"
+    },
+    {
+        "name": "Taco Tim",
+        "series": "Food Fight",
+        "number": 6,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 0.99,
+        "img": "https://i.imgur.com/Uy5nrfW.jpg"
+    },
+    {
+        "name": "Flakey Fran",
+        "series": "Food Fight",
+        "number": 9,
+        "aOrb": "a",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 1.99,
+        "img": "https://i.imgur.com/Cb3q6Yi.jpg"
+    },
+    {
+        "name": "Scabby Scarlet",
+        "series": "Food Fight",
+        "number": 9,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 1.50,
+        "img": "https://i.imgur.com/kscU39W.jpg"
+    },
+    {
+        "name": "Soupy Candice",
+        "series": "Food Fight",
+        "number": 11,
+        "aOrb": "a",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 1.00,
+        "img": "https://i.imgur.com/TwzM69x.jpg"
+    },
+    {
+        "name": "Mm Mm Gooden",
+        "series": "Food Fight",
+        "number": 11,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 1.00,
+        "img": "https://i.imgur.com/oXIr1J5.jpg"
+    },
+    {
+        "name": "Sid Lid",
+        "series": "Food Fight",
+        "number": 12,
+        "aOrb": "b",
+        "fanFave": false,
+        "yearReleased": 2021,
+        "value": 0.17,
+        "img": "https://i.imgur.com/OkOaXlV.jpg"
+    },
+    {
+        "name": "Dan Opener",
+        "series": "Food Fight",
+        "number": 12,
+        "aOrb":"a",
+        "fanFave": false,
+        "yearReleased": 2021,
+        "value": 0.23,
+        "img":"https://i.imgur.com/a3zD0Gw.jpg"
+    },
+    {
+        "name": "Fresh Fischer",
+        "series": "Food Fight",
+        "number": 16,
+        "aOrb": "b",
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 0.59,
+        "img": "https://i.imgur.com/GMB5dPa.jpg"
+    },
+    {
+        "name": "Dipping Derrick",
+        "series": "Food Fight",
+        "number": 17,
+        "aOrb": "a", 
+        "fanFave": true,
+        "yearReleased": 2021,
+        "value": 1.13,
+        "img": "https://i.imgur.com/3IoYRsI.jpg"
+    },
+    {
+        "name": "Stick-Up Stanley",
+        "series": "Food Fight",
+        "number": 21,
+        "aOrb": "a",
+        "fanFave": false,
+        "yearReleased": 2021,
+        "value": 0.14,
+        "img": "https://i.imgur.com/IinyY4H.jpg"
+    },
+    {
+        "name": "Meltdown Mark",
+        "series": "Food Fight",
+        "number": 21,
+        "aOrb": "b", 
+        "fanFave": false,
+        "yearReleased": 2021,
+        "value": 0.15,
+        "img": "https://i.imgur.com/nMzTYCU.jpg"
+    },
+    {
+        "name": "Cookie Cutter Cooper",
+        "series": "Food Fight",
+        "number": 22,
+        "aOrb": "a",
+        "fanFave": false,
+        "yearReleased": 2021,
+        "value": 1.00,
+        "img": "https://i.imgur.com/y488J6v.jpg"
+    },
+    {
+        "name": "Bart Face",
+        "series": "Food Fight",
+        "number": 14,
+        "aOrb": "b",
+        "fanFave": false,
+        "yearReleased": 2021,
+        "value": 0.63,
+        "img": "https://i.imgur.com/BhRzkdK.jpg"
+    }
+]
