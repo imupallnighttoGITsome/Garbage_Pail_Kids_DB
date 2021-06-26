@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
-const mongooseURI = process.env.NODE_ENV === "production"
+
+const mongoURI = process.env.NODE_ENV === "production"
     ? process.env.DB_URL
     : 'mongodb://localhost/gpk'
     mongoose.connect(mongooseURI, {

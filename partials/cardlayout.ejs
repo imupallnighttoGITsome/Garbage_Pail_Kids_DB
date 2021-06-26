@@ -11,15 +11,22 @@
     <% const addButton = cards[0].series.toLowerCase().split(" ").join("") %>
     <button><a href="/gpk/<%= addButton %>/add">ADD CARD</a></button>
     <div class="container" style="display: flex; width: 875px; flex-wrap: wrap; justify-content: left; float: left;">
-        <% cards.forEach((card) => { %>
-            <div style="margin: 10px; background-color: rgb(215, 241, 176); padding: 5px; padding-bottom: 60px; border: solid green 2px; border-radius: 4px;"><img style="height: 400px; width: 250px; border: solid rgb(228, 250, 26) 2px; border-radius: 3px;" src="<%= card.img %>">
-                <ul style="text-align: center; width: 200px">
-                    <li style="list-style-type: none"><%= card.name %></li>
-                    <li style="list-style-type: none;"><%= card.series %></li>
-                    <li style="list-style-type: none;"><%= card.number %></li>
-                    <li style="list-style-type: none;"><%= card.fanFave %></li>
-                </ul>
-            </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <% cards.forEach((card) => { %>
+                  <div class="flip-card-front" style="margin: 10px; background-color: rgb(215, 241, 176); padding: 5px; padding-bottom: 10px; border: solid green 2px; border-radius: 4px;">
+                    <img style="height: 400px; width: 250px; border: solid rgb(228, 250, 26) 2px; border-radius: 3px;" src="<%= card.img %>">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1><%= card.name %></h1>
+                    <ul style="text-align: center; width: 200px">
+                        <li style="list-style-type: none;"><%= card.series %></li>
+                        <li style="list-style-type: none;"><%= card.number %></li>
+                        <li style="list-style-type: none;"><%= card.fanFave %></li>
+                    </ul>
+                </div>
+                </div>
+              </div>
         <% }) %>
     </div>
 </body>

@@ -33,7 +33,14 @@ router.get('/gallery', (req, res, next) => {
     .then(cards => res.render('../partials/cardlayout', { cards }))
     .catch(next)
 })
-router.get('/foodfight/add', (req, res, next) => {
+router.get('/foodfight/add', (req, res) => {
     res.render('addcard')
+})
+router.post('/foodfight', (req, res, next) => {
+    Cards.create(req.body)
+    console.log(req.body)
+    .then(card => res.json(card))
+    .then(res.redirect('/foodfight'))
+    .catch(next)
 })
 module.exports = router
