@@ -11,20 +11,20 @@ router.get('/', (req, res, next) => {
 
 router.get('/top15', (req, res, next) => {
     Cards.find({ yearReleased: 1985 })
-    .then(cards => res.render('../partials/cardlayout', { cards }))
+    .then(cards => res.render('cardlayout', { cards }))
     .catch(next)
 
 })
 
 router.get('/foodfight', (req, res, next) => {
     Cards.find({ yearReleased: 2021 })
-    .then(cards => res.render('../partials/cardlayout', { cards }))
+    .then(cards => res.render('cardlayout', { cards }))
     .catch(next)
 })
 
 router.get('/35thanniversary', (req, res, next) => {
     Cards.find({ yearReleased: 2020 })
-    .then(cards => res.render('../partials/cardlayout', { cards }))
+    .then(cards => res.render('cardlayout', { cards }))
     .catch(next)
 })
 
