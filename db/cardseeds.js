@@ -13,24 +13,7 @@ Card.deleteMany()
     .finally(() => {
         process.exit()
     })
-// Card.deleteMany()
-//     .then(() => {
-//         return Card.insertMany(seedData2)
-//     })
-//     .then(console.log)
-//     .catch(console.error)
-//     .finally(() => {
-//         process.exit()
-//     })
-// Card.deleteMany()
-//     .then(() => {
-//         return Card.insertMany(seedData3)
-//     })
-//     .then(console.log)
-//     .catch(console.error)
-//     .finally(() => {
-//         process.exit()
-//     })
+
 // Artists.deleteMany()
 //     .then(() => {
 //         return Artists.insertMany(seedData4)

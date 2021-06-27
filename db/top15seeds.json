@@ -148,5 +148,405 @@
     "yearReleased": 1985,
     "value": 600,
     "img": "https://www.oldsportscards.com/wp-content/uploads/2019/10/1985-Garbage-Pail-Kids-Card-70a-Bad-Breath-Seth.jpeg"
-  }
+  },
+  {
+    "name": "Rod Wad",
+    "series": "35th Anniversary",
+    "number": 2,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2020,
+    "value": 0.75,
+    "img": "https://i.imgur.com/mbZ4wA8.jpg"
+  },
+  {
+    "name": "New Wave Dave",
+    "series": "35th Anniversary",
+    "number": 3,
+    "aOrb": "a",
+    "fanFave": true,
+    "yearReleased": 2020,
+    "value": 3.02, 
+    "img": "https://i.imgur.com/bt1635U.jpg"
+  },
+  {
+    "name": "Boozin' Bruce",
+    "series": "35th Anniversary",
+    "number": 5,
+    "aOrb": "a",
+    "fanFave": true,
+    "yearReleased": 2020,
+    "value": 3.75,
+    "img": "https://i.imgur.com/eWOQI3D.jpg"
+  },
+  {
+    "name": "Geeky Gary",
+    "series": "35th Anniversary",
+    "number": 6,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2020,
+    "value": 3.19,
+    "img": "https://i.imgur.com/k0QpTVE.jpg"
+  },
+  {
+    "name": "Organ Nick",
+    "series": "35th Anniversary",
+    "number": 5,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 2.50,
+    "img": "https://i.imgur.com/pgEXpye.jpg"
+  },
+  {
+    "name": "Rex Specs",
+    "series": "35th Anniversary",
+    "number": 6,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 2.99,
+    "img": "https://i.imgur.com/VrkCT2f.jpg"
+  },
+  {
+    "name": "Homer Repair",
+    "series": "35th Anniversary",
+    "number": 10,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 1.25,
+    "img": "https://i.imgur.com/qEvvbPC.jpg"
+  },
+  {
+    "name": "Electric Carl",
+    "series": "35th Anniversary",
+    "number": 12,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 0.10,
+    "img": "https://i.imgur.com/tySWt2X.jpg"
+  },
+  {
+    "name": "Axel Throws",
+    "series": "35th Anniversary",
+    "number": 16,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 0.17,
+    "img": "https://i.imgur.com/q4KCTaA.jpg"
+  },
+  {
+    "name": "Cracked Jack",
+    "series": "35th Anniversary",
+    "number": 22,
+    "aOrb": "a",
+    "fanFave": true,
+    "yearReleased": 2020,
+    "value": 0.35,
+    "img": "https://i.imgur.com/uk0nTGm.jpg"
+  },
+  {
+    "name": "Pick'n Flicka",
+    "series": "35th Anniversary",
+    "number": 26,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 0.09,
+    "img": "https://i.imgur.com/Br2O2gY.jpg"
+  },
+  {
+    "name": "Dot Rocket",
+    "series": "35th Anniversary",
+    "number": 27,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 0.15,
+    "img": "https://i.imgur.com/F99vW26.jpg"
+  },
+  {
+    "name": "Jay I",
+    "series": "35th Anniversary",
+    "number": 31,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2020,
+    "value": 0.56,
+    "img": "https://i.imgur.com/XNAPgtk.jpg"
+  },
+  {
+    "name": "Hopeful Harper",
+    "series": "35th Anniversary",
+    "number": 32,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 0.13,
+    "img": "https://i.imgur.com/6KDWdnr.jpg"
+  },
+  {
+    "name": "Shreddin' Kevin",
+    "series": "35th Anniversary",
+    "number": 35,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 0.20,
+    "img": "https://i.imgur.com/gYFsGJd.jpg"
+  },
+  {
+    "name": "Designer Bobby",
+    "series": "35th Anniversary",
+    "number": 36,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 0.08,
+    "img": "https://i.imgur.com/IsF27LU.jpg"
+  },
+  {
+    "name": "Diaper Donald",
+    "series": "35th Anniversary",
+    "number": 37,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2020,
+    "value": 0.27,
+    "img": "https://i.imgur.com/zqlL8PZ.jpg"
+  },
+  {
+    "name": "Jenny Justice",
+    "series": "35th Anniversary",
+    "number": 41,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2020,
+    "value": 0.38,
+    "img": "https://i.imgur.com/Bmq8IqL.jpg"
+  },
+  {
+    "name": "Rem Brent",
+    "series": "35th Anniversary",
+    "number": 42,
+    "aOrb": "a",
+    "fanFave": false,
+    "yearReleased": 2020,
+    "value": 0.08,
+    "img": "https://i.imgur.com/TgSD5d3.jpg"
+  },
+  {
+    "name": "Rubbish Ben",
+    "series": "35th Anniversary",
+    "number": 43,
+    "aOrb": "a",
+    "fanFave": true,
+    "yearReleased": 2020,
+    "value": 3.50,
+    "img": "https://i.imgur.com/yzL3DpG.jpg"
+  },
+  {
+    "name": "Adam Appetite",
+    "series": "Food Fight",
+    "number": 1,
+    "aORb": "a",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 5.00,
+    "img": "https://i.imgur.com/pqkRLlv.jpg"
+},
+{
+    "name": "Flavortown Fieri",
+    "series": "Celebrity Chefs",
+    "number": 6,
+    "aORb": "b",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 2.00,
+    "img": "https://i.imgur.com/LQhujTR.jpg"
+},
+{
+    "name": "Gummy Gunther",
+    "series": "Food Fight",
+    "number": 1,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 1.95,
+    "img": "https://i.imgur.com/q9QtZpn.jpeg"
+},
+{
+    "name": "Buttercream Maxine",
+    "series": "Food Fight",
+    "number": 2,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 0.70,
+    "img": "https://i.imgur.com/P4BQWgI.jpeg"
+},
+{
+    "name": "Choke-a-lot Chip",
+    "series": "Food Fight",
+    "number": 3,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 1.59,
+    "img": "https://i.imgur.com/evAuGyb.jpg"
+},
+{
+    "name": "Noodle Harriet",
+    "series": "Food Fight",
+    "number": 4,
+    "aOrb": "a",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 1.95,
+    "img": "https://i.imgur.com/c02wOED.jpg"
+},
+{
+    "name": "Betty Spaghetti",
+    "series": "Food Fight",
+    "number": 4,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 1.75,
+    "img": "https://i.imgur.com/3ZmJaM1.jpg"
+},
+{
+    "name": "Taco Tim",
+    "series": "Food Fight",
+    "number": 6,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 0.99,
+    "img": "https://i.imgur.com/Uy5nrfW.jpg"
+},
+{
+    "name": "Flakey Fran",
+    "series": "Food Fight",
+    "number": 9,
+    "aOrb": "a",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 1.99,
+    "img": "https://i.imgur.com/Cb3q6Yi.jpg"
+},
+{
+    "name": "Scabby Scarlet",
+    "series": "Food Fight",
+    "number": 9,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 1.50,
+    "img": "https://i.imgur.com/kscU39W.jpg"
+},
+{
+    "name": "Soupy Candice",
+    "series": "Food Fight",
+    "number": 11,
+    "aOrb": "a",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 1.00,
+    "img": "https://i.imgur.com/TwzM69x.jpg"
+},
+{
+    "name": "Mm Mm Gooden",
+    "series": "Food Fight",
+    "number": 11,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 1.00,
+    "img": "https://i.imgur.com/oXIr1J5.jpg"
+},
+{
+    "name": "Sid Lid",
+    "series": "Food Fight",
+    "number": 12,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2021,
+    "value": 0.17,
+    "img": "https://i.imgur.com/OkOaXlV.jpg"
+},
+{
+    "name": "Dan Opener",
+    "series": "Food Fight",
+    "number": 12,
+    "aOrb":"a",
+    "fanFave": false,
+    "yearReleased": 2021,
+    "value": 0.23,
+    "img":"https://i.imgur.com/a3zD0Gw.jpg"
+},
+{
+    "name": "Fresh Fischer",
+    "series": "Food Fight",
+    "number": 16,
+    "aOrb": "b",
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 0.59,
+    "img": "https://i.imgur.com/GMB5dPa.jpg"
+},
+{
+    "name": "Dipping Derrick",
+    "series": "Food Fight",
+    "number": 17,
+    "aOrb": "a", 
+    "fanFave": true,
+    "yearReleased": 2021,
+    "value": 1.13,
+    "img": "https://i.imgur.com/3IoYRsI.jpg"
+},
+{
+    "name": "Stick-Up Stanley",
+    "series": "Food Fight",
+    "number": 21,
+    "aOrb": "a",
+    "fanFave": false,
+    "yearReleased": 2021,
+    "value": 0.14,
+    "img": "https://i.imgur.com/IinyY4H.jpg"
+},
+{
+    "name": "Meltdown Mark",
+    "series": "Food Fight",
+    "number": 21,
+    "aOrb": "b", 
+    "fanFave": false,
+    "yearReleased": 2021,
+    "value": 0.15,
+    "img": "https://i.imgur.com/nMzTYCU.jpg"
+},
+{
+    "name": "Cookie Cutter Cooper",
+    "series": "Food Fight",
+    "number": 22,
+    "aOrb": "a",
+    "fanFave": false,
+    "yearReleased": 2021,
+    "value": 1.00,
+    "img": "https://i.imgur.com/y488J6v.jpg"
+},
+{
+    "name": "Bart Face",
+    "series": "Food Fight",
+    "number": 14,
+    "aOrb": "b",
+    "fanFave": false,
+    "yearReleased": 2021,
+    "value": 0.63,
+    "img": "https://i.imgur.com/BhRzkdK.jpg"
+}
 ]
