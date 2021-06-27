@@ -1,0 +1,10 @@
+mongo shit
+username: cpalmer
+password: GpwD86pQj7riRgfC
+
+
+atlas config:
+
+mongodb+srv://cpalmer:GpwD86pQj7riRgfC@cluster0.4g5kj.mongodb.net/deployproject2?retryWrites=true&w=majority
+
+mongodb+srv://cpalmer:<password>@cluster0.4g5kj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
