@@ -10,3 +10,5 @@ Artists.deleteMany()
     .finally(() => {
         process.exit()
     })
+
+module.exports = Artists

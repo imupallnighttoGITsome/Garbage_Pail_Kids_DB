@@ -30,7 +30,7 @@ router.get('/35thanniversary', (req, res, next) => {
 
 router.get('/gallery', (req, res, next) => {
     Artists.find({})
-    .then(cards => res.render('fanart', { cards }))
+    .then(artists => res.render('fanart', { artists }))
     .catch(next)
 })
 router.get('/foodfight/add', (req, res) => {
