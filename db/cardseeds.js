@@ -4,22 +4,13 @@ const seedData = require('./top15seeds.json')
 const seedData2 = require('./35anniseeds.json')
 const seedData3 = require('./foodfightseeds.json')
 const seedData4 = require('./gallery.json')
-Card.deleteMany()
-    .then(() => {
-        return Card.insertMany(seedData)
-    })
-    .then(console.log)
-    .catch(console.error)
-    .finally(() => {
-        process.exit()
-    })
-
-// Artists.deleteMany()
+// Card.deleteMany()
 //     .then(() => {
-//         return Artists.insertMany(seedData4)
+//         return Card.insertMany(seedData)
 //     })
 //     .then(console.log)
 //     .catch(console.error)
 //     .finally(() => {
 //         process.exit()
 //     })
+
