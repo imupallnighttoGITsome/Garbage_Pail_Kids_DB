@@ -13,7 +13,7 @@ app.use('/gpk', cardController)
 
 
 
-app.set('port', process.env.PORT || 8080)
+app.set('port', process.env.PORT || 4000)
 app.listen(app.get('port'), () => {
     console.log(`in good shape on PORT: ${app.get('port')}`)
 
