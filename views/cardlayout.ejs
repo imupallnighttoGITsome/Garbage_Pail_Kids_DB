@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "/css/styles.css" rel="stylesheet" type="text/css" />
+
     <title>Garbage Pail Kids</title>
 </head>
-<body style="background-color: rgb(131, 160, 4); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
     <h1 style="color:rgb(215, 241, 176); text-align: left; margin-left: 15px; text-transform: uppercase;"><%= cards[0].series %></h1>
     <% const addButton = cards[0].series.toLowerCase().split(" ").join("") %>
     <button><a href="/gpk/<%= addButton %>/add">ADD CARD</a></button>
