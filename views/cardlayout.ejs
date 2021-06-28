@@ -2,6 +2,7 @@
     <h1 style="color:rgb(215, 241, 176); text-align: left; margin-left: 15px; text-transform: uppercase;"><%= cards[0].series %></h1>
     <% const addButton = cards[0].series.toLowerCase().split(" ").join("") %>
     <button><a href="/gpk/<%= addButton %>/add">ADD CARD</a></button>
+    <div class="container">
     <% cards.forEach((card) => { %>
         <div class="flip-card">
             <div class="card-inner">
@@ -19,5 +20,5 @@
             </div>
         </div>
         <% }) %>
-
+    </div>
 
