@@ -2,8 +2,8 @@
     <h1 style="color:rgb(215, 241, 176); text-align: left; margin-left: 15px; text-transform: uppercase;"><%= cards[0].series %></h1>
     <% const addButton = cards[0].series.toLowerCase().split(" ").join("") %>
     <button><a href="/gpk/<%= addButton %>/add">ADD CARD</a></button>
+    <% cards.forEach((card) => { %>
         <div class="flip-card">
-            <% cards.forEach((card) => { %>
             <div class="card-inner">
                 <div class="card-front">
                     <img style="height: 400px; width: 250px; border: solid rgb(228, 250, 26) 2px; border-radius: 3px;" src="<%= card.img %>">
@@ -15,9 +15,9 @@
                         <li style="list-style-type: none;"><%= card.number %></li>
                         <li style="list-style-type: none;"><%= card.fanFave %></li>
                     </ul>
-                    <% }) %>
                 </div>
-                </div>
-              </div>
+            </div>
+        </div>
+        <% }) %>
 
 
