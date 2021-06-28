@@ -5,8 +5,6 @@ body {
     background-color: transparent;
     width: 300px;
     height: 500px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
 .card-front {
@@ -46,7 +44,10 @@ body {
   }
   
   /* Style the front side (fallback if image is missing) */
-
+  .card-front {
+    background-color: #bbb;
+    color: black;
+  }
   
   /* Style the back side */
   .card-back {
