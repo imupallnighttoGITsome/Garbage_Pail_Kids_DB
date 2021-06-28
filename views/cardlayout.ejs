@@ -7,7 +7,7 @@
         <div class="flip-card">
             <div class="card-inner">
                 <div class="card-front">
-                    <img style="height: 400px; width: 250px; border: solid rgba(211, 214, 176, 0.747) 2px; border-radius: 5px;" src="<%= card.img %>">
+                    <img style="height: 400px; width: 280px; border: solid rgba(211, 214, 176, 0.747) 2px; border-radius: 5px;" src="<%= card.img %>">
                   </div>
                   <div class="card-back">
                   <div class="border">
@@ -15,8 +15,12 @@
                     <ul style="text-align: center; width: 200px">
                         <li style="list-style-type: none;"><%= card.series %></li>
                         <li style="list-style-type: none;"><%= card.number %></li>
-                        <li style="list-style-type: none;"><%= card.fanFave %></li>
+                        <li style="list-style-type: none;"><%= card.aOrb %></li>
+                        <li style="list-style-type: none;"><%= card.value %></li>
                     </ul>
+                    <form action="/gpk/<%= card._id %>?_method=delete" method="POST">
+                        <input type="submit" value="Delete">
+                    </form>
                 </div>
             </div>
         </div>

@@ -1,10 +1,11 @@
 const express = require('express')
 const app = express()
+const methodOverride = require('method-override')
 
 
 const cardController = require('./controllers/cardcontroller')
 const ejsLayouts = require('express-ejs-layouts')
-//require('dotenv').config()
+app.use(methodOverride('_method'))
 app.set('view engine', 'ejs')
 app.use(ejsLayouts)
 app.use(express.json())
