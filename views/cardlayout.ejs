@@ -14,7 +14,6 @@
                   <div class="card-back">
                       <h2 style="background-color: antiquewhite; margin-top: -50px;"><%= card.name.toUpperCase() %></h2>
                     <ul class="card-info">
-                        <li>Series: <%= card.series %></li>
                         <li>Number: <%= card.number %><%= card.aOrb %></li>
                         <li>Value: $<%= card.value %></li>
                         <form class="delete" action="/gpk/<%= url %>/<%= card.id %>?_method=DELETE" method="POST">

@@ -32,35 +32,30 @@ router.get('/gallery', (req, res, next) => {
     .then(artists => res.render('fanart', { artists }))
     .catch(next)
 })
-router.post('/35thanniversary/add', (req, res, next) => {
+
+router.get('/35thanniversary/add', (req, res) => {
+    Cards.find({ $and: [{ series: { $ne: '1st Series' }}, { series: { $ne: '2nd Series' }}]})
+    .then(cards => res.render('add35anni', { cards }))
+})
+router.get('/foodfight/add', (req, res) => {
+    Cards.find({ $and: [{ series: { $ne: '1st Series' }}, { series: { $ne: '2nd Series' }}]})
+    .then(cards => res.render('add35anni', { cards }))
+})
+router.post('/35thanniversary/add', (req, res) => {
     console.log(req.body)
-    Cards.create({req}, {
-        name: req.body.name,
-        series: '35th Anniversary',
-        number: req.body.nuber,
-        aOrb: true,
-        value: req.body.value,
-        img: req.body.img
-    })
+    Cards.create(req.body)
     .then(card => res.redirect('/gpk/35thanniversary'))
-    .catch(next)
 })
 router.post('/foodfight/add', (req, res, next) => {
+    console.log(req.body)
     Cards.create(req.body)
     .then(card => res.redirect('/gpk/foodfight'))
     .catch(next)
 })
-router.get('/35thanniversary/add', (req, res) => {
-    res.render('add35anni')
-})
 
 
-router.get('/foodfight/add', (req, res) => {
-    res.render('addfoodfight')
-})
 
 router.delete('/foodfight/:id', (req, res) => {
-    console.log(req.body)
     let id = req.params.id
     Cards.findOneAndDelete({_id: id })
     .then(cards => res.redirect('/gpk/foodfight'))
