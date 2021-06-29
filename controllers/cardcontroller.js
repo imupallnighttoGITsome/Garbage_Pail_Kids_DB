@@ -10,20 +10,20 @@ router.get('/', (req, res, next) => {
 })
 
 router.get('/top15', (req, res, next) => {
-    Cards.find({ yearReleased: 1985 })
+    Cards.find({$or: [ { series: '1st Series' }, { series: '2nd Series' }]})
     .then(cards => res.render('cardlayout', { cards }))
     .catch(next)
 
 })
 
 router.get('/foodfight', (req, res, next) => {
-    Cards.find({ yearReleased: 2021 })
+    Cards.find({ series: 'Food Fight' })
     .then(cards => res.render('cardlayout', { cards }))
     .catch(next)
 })
 
 router.get('/35thanniversary', (req, res, next) => {
-    Cards.find({ yearReleased: 2020 })
+    Cards.find({ series: '35th Anniversary' })
     .then(cards => res.render('cardlayout', { cards }))
     .catch(next)
 })
@@ -32,14 +32,22 @@ router.get('/gallery', (req, res, next) => {
     .then(artists => res.render('fanart', { artists }))
     .catch(next)
 })
-router.post('/35thanniversary', (req, res, next) => {
-    Cards.create(req.body)
-    .then(card => res.redirect('35thanniversary'))
+router.post('/35thanniversary/add', (req, res, next) => {
+    console.log(req.body)
+    Cards.create({req}, {
+        name: req.body.name,
+        series: '35th Anniversary',
+        number: req.body.nuber,
+        aOrb: true,
+        value: req.body.value,
+        img: req.body.img
+    })
+    .then(card => res.redirect('/gpk/35thanniversary'))
     .catch(next)
 })
-router.post('/foodfight', (req, res, next) => {
+router.post('/foodfight/add', (req, res, next) => {
     Cards.create(req.body)
-    .then(card => res.redirect('foodfight'))
+    .then(card => res.redirect('/gpk/foodfight'))
     .catch(next)
 })
 router.get('/35thanniversary/add', (req, res) => {
@@ -51,9 +59,15 @@ router.get('/foodfight/add', (req, res) => {
     res.render('addfoodfight')
 })
 
-router.delete('/:id', (req, res) => {
+router.delete('/foodfight/:id', (req, res) => {
+    console.log(req.body)
     let id = req.params.id
     Cards.findOneAndDelete({_id: id })
-    .then(cards => res.redirect('foodfight'))
+    .then(cards => res.redirect('/gpk/foodfight'))
+})
+router.delete('/35thanniversary/:id', (req, res) => {
+    let id = req.params.id
+    Cards.findOneAndDelete({_id: id })
+    .then(cards => res.redirect('/gpk/35thanniversary'))
 })
 module.exports = router

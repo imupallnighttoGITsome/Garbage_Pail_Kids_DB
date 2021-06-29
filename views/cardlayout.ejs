@@ -1,30 +1,32 @@
+<% let url = cards[0].series.toLowerCase().split(' ').join('') %>
+<button class="add-card" style="<%= url.includes('series') ? 'opacity: 0' : '' %>">
+    <a href="/gpk/<%= url %>/add">ADD CARD</a>
+</button>
 
-    <h1 style="color:rgb(215, 241, 176); text-align: left; margin-left: 15px; text-transform: uppercase;"><%= cards[0].series %></h1>
-    <% const addButton = cards[0].series.toLowerCase().split(" ").join("") %>
-    <button><a href="/gpk/<%= addButton %>/add">ADD CARD</a></button>
-    <div class="container">
+<h1 style="font-family: double feature; color: aquamarine; text-align: center;"><%= cards[0].series.toUpperCase() %></h1>
+<div class="container">
     <% cards.forEach((card) => { %>
         <div class="flip-card">
             <div class="card-inner">
                 <div class="card-front">
-                    <img style="height: 400px; width: 280px; border: solid rgba(211, 214, 176, 0.747) 2px; border-radius: 5px;" src="<%= card.img %>">
+                    <img style="height: 400px; width: 270px; border: solid rgba(170, 173, 137) 1px;border-left: solid rgb(131, 133, 109) 1px;border-radius: 5px;" src="<%= card.img %>">
                   </div>
                   <div class="card-back">
-                  <div class="border">
-                    <h1><%= card.name %></h1>
-                    <ul style="text-align: center; width: 200px">
-                        <li style="list-style-type: none;"><%= card.series %></li>
-                        <li style="list-style-type: none;"><%= card.number %></li>
-                        <li style="list-style-type: none;"><%= card.aOrb %></li>
-                        <li style="list-style-type: none;"><%= card.value %></li>
+                      <h2 style="background-color: antiquewhite; margin-top: -50px;"><%= card.name.toUpperCase() %></h2>
+                    <ul class="card-info">
+                        <li>Series: <%= card.series %></li>
+                        <li>Number: <%= card.number %><%= card.aOrb %></li>
+                        <li>Value: $<%= card.value %></li>
+                        <form class="delete" action="/gpk/<%= url %>/<%= card.id %>?_method=DELETE" method="POST">
+                            <input type="submit" value="Delete" style="<%= url.includes('series') ? 'opacity: 0' : '' %>">
+                        </form>
                     </ul>
-                    <form action="/gpk/<%= card._id %>?_method=delete" method="POST">
-                        <input type="submit" value="Delete">
-                    </form>
                 </div>
             </div>
-        </div>
         </div>
         <% }) %>
     </div>
 
+<script>
+
+</script>

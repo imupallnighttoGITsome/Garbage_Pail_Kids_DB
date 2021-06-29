@@ -5,7 +5,6 @@ const userSchema = new mongoose.Schema ({
     series: String,
     number: Number,
     aOrb: String,
-    fanFave: Boolean,
     yearReleased: Number,
     value: Number,
     img: String,
