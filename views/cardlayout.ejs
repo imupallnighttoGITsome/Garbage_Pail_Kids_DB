@@ -1,9 +1,9 @@
+<body>
 <% let url = cards[0].series.toLowerCase().split(' ').join('') %>
-<button class="add-card" style="<%= url.includes('series') ? 'opacity: 0' : '' %>">
-    <a href="/gpk/<%= url %>/add">ADD CARD</a>
-</button>
+<a href="/gpk/<%= url %>/add" class="add-button" style="<%= url.includes('series' || 'gallery') ? 'opacity: 0' : '' %>" >ADD CARD</a>
 
-<h1 style="font-family: double feature; color: aquamarine; text-align: center;"><%= cards[0].series.toUpperCase() %></h1>
+
+<h1 style="font-family: double feature; color: rgb(228, 87, 44); font-size: 75px; text-align: center;"><%= cards[0].series.toUpperCase() %></h1>
 <div class="container">
     <% cards.forEach((card) => { %>
         <div class="flip-card">
@@ -15,17 +15,19 @@
                       <h2 style="background-color: antiquewhite; margin-top: -50px;"><%= card.name.toUpperCase() %></h2>
                     <ul class="card-info">
                         <li>Number: <%= card.number %><%= card.aOrb %></li>
+                        <li>Year Released: <%= card.yearReleased %></li>
                         <li>Value: $<%= card.value %></li>
                         <form class="delete" action="/gpk/<%= url %>/<%= card.id %>?_method=DELETE" method="POST">
-                            <input type="submit" value="Delete" style="<%= url.includes('series') ? 'opacity: 0' : '' %>">
+                            <input class="actionbutton" type="submit" value="Delete" style="<%= url.includes('series') ? 'opacity: 0' : '' %>">
                         </form>
+                        <form class="update" action="/gpk/<%= card.id %>/edit" method="PUT">
+                            <input class="actionbutton" type="submit" value="UPDATE">
+                        </form>
+                        
                     </ul>
                 </div>
             </div>
         </div>
         <% }) %>
     </div>
-
-<script>
-
-</script>
+</body>

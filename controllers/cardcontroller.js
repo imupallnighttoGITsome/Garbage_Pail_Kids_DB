@@ -17,29 +17,33 @@ router.get('/top15', (req, res, next) => {
 })
 
 router.get('/foodfight', (req, res, next) => {
-    Cards.find({ series: 'Food Fight' })
+    Cards.find({yearReleased: 2021})
     .then(cards => res.render('cardlayout', { cards }))
     .catch(next)
 })
 
 router.get('/35thanniversary', (req, res, next) => {
-    Cards.find({ series: '35th Anniversary' })
+    Cards.find({yearReleased: 2020})
     .then(cards => res.render('cardlayout', { cards }))
     .catch(next)
 })
 router.get('/gallery', (req, res, next) => {
-    Artists.find({})
+    Artists.find({ artist: { $exists: true}})
     .then(artists => res.render('fanart', { artists }))
     .catch(next)
 })
 
 router.get('/35thanniversary/add', (req, res) => {
-    Cards.find({ $and: [{ series: { $ne: '1st Series' }}, { series: { $ne: '2nd Series' }}]})
-    .then(cards => res.render('add35anni', { cards }))
+    Cards.find({ $and: [{ series: '35th Anniversary' }, { name: { $exists: true}}]})
+    .then(cards => res.render('addcardform', { cards }))
 })
 router.get('/foodfight/add', (req, res) => {
-    Cards.find({ $and: [{ series: { $ne: '1st Series' }}, { series: { $ne: '2nd Series' }}]})
-    .then(cards => res.render('add35anni', { cards }))
+    Cards.find({ $and: [{ series: 'Food Fight' }, { name: { $exists: true}}]})
+    .then(cards => res.render('addcardform', { cards }))
+})
+router.get('/gallery/add', (req, res) => {
+    Artists.find({ artist: { $exists: true }})
+    .then(artists => res.render('addartform', { artists }))
 })
 router.post('/35thanniversary/add', (req, res) => {
     console.log(req.body)
@@ -52,9 +56,30 @@ router.post('/foodfight/add', (req, res, next) => {
     .then(card => res.redirect('/gpk/foodfight'))
     .catch(next)
 })
-
-
-
+router.post('/gallery/add', (req, res, next) => {
+    Artists.create(req.body)
+    .then(card => res.redirect('/gpk/gallery'))
+    .catch(next)
+})
+router.get('/:id/edit', (req, res, next) => {
+    const id = req.params.id;
+    Cards.find({ _id: id })
+      .then((card) => {
+        res.render('updateform', { card });
+      })
+      .catch(next);
+  });
+  router.put('/:id', (req, res, next) => {
+    const id = req.params.id;
+    Cards.findOneAndUpdate(
+      { _id: id }, req.body,
+      { new: true }
+      )
+      .then((card) => {
+        Cards.find({}).then(cards => res.redirect('/gpk/top15'));
+      })
+      .catch(next);
+  });
 router.delete('/foodfight/:id', (req, res) => {
     let id = req.params.id
     Cards.findOneAndDelete({_id: id })
@@ -64,5 +89,10 @@ router.delete('/35thanniversary/:id', (req, res) => {
     let id = req.params.id
     Cards.findOneAndDelete({_id: id })
     .then(cards => res.redirect('/gpk/35thanniversary'))
+})
+router.delete('/gallery/:id', (req, res) => {
+    let id = req.params.id
+    Cards.findOneAndDelete({_id: id })
+    .then(cards => res.redirect('/gpk/gallery'))
 })
 module.exports = router
