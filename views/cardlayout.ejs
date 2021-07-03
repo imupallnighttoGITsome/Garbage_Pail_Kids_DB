@@ -14,13 +14,14 @@
                   <div class="card-back">
                       <h2 style="background-color: antiquewhite; margin-top: -50px;"><%= card.name.toUpperCase() %></h2>
                     <ul class="card-info">
+                        <li>Series: <%= card.series %></li>
                         <li>Number: <%= card.number %><%= card.aOrb %></li>
                         <li>Year Released: <%= card.yearReleased %></li>
                         <li>Value: $<%= card.value %></li>
-                        <form class="delete" action="/gpk/<%= url %>/<%= card.id %>?_method=DELETE" method="POST">
-                            <input class="actionbutton" type="submit" value="Delete" style="<%= url.includes('series') ? 'opacity: 0' : '' %>">
+                        <form action="/gpk/<%= url %>/<%= card.id %>?_method=DELETE" method="POST">
+                            <input class="actionbutton" type="submit" style="<%= url.includes('series') ? 'opacity: 0' : '' %>" value="DELETE">
                         </form>
-                        <form class="update" action="/gpk/<%= card.id %>/edit" method="PUT">
+                        <form action="/gpk/<%= url %>/<%= card.id %>/edit" class="actionbutton" method="GET">
                             <input class="actionbutton" type="submit" value="UPDATE">
                         </form>
                         

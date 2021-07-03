@@ -1,15 +1,16 @@
 <body>
-<div class="form">
-    <h2>GARBAGE PAIL KIDS</h2>
-    <div class="form-content">
-        <form class="update" action="/gpk/<%= card.id %>" method="PUT">
-            <label>Name:  <input type="text" name="name"></label><br>
-            <label>Number:  <input type="text" name="number"></label><br>
-            <label>A or B:  </label><input type="letter" name="aOrb"><br>
-            <label>Value:  </label><input type="number" name="value"><br>
-            <label>Image:  </label><input type="url" name="img">
-            <button class="enter" type="submit" style="background-color: goldenrod; border: 2px rgb(250, 250, 248) solid; border-radius: 3px;padding: 3px; width: 75px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color:rgb(39, 38, 2); margin: 20px;">ENTER</button>
-        </form>
+    <div class="form">
+        <h2>GARBAGE PAIL KIDS</h2>
+        <div class="form-content">
+            <form action="/gpk/foodfight/<%= card.id %>?_method=put" method="POST">
+                <label>Name:  <input type="text" name="name"></label><br>
+                <label>Number:  <input type="number" name="number"></label><br>
+                <label>A or B:  <input type="text" name="aOrb"></label><br>
+                <label>Year Released:  <input type="text" name="yearReleased" value="2021"></label><br>
+                <label>Value:  <input type="number" name="value"></label><br>
+                <label>Image:  <input type="url" name="img"></label>
+                <button class="enter" type="submit" style="background-color: goldenrod; border: 2px rgb(250, 250, 248) solid; border-radius: 3px;padding: 3px; width: 75px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color:rgb(94, 92, 12); margin: 20px;">ENTER</button>
+            </form>
+        </div>
     </div>
-</div>
-</body>
+    </body>

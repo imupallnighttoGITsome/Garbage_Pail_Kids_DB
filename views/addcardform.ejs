@@ -5,11 +5,12 @@
         <% let url = cards[0].series.toLowerCase().split(' ').join('') %>
         <form action="/gpk/<%= url %>/add" method="POST">
             <label>Name:  <input type="text" name="name"></label><br>
+            <label>Series: <input type="text" name="series"></label><br>
             <label>Number:  <input type="number" name="number"></label><br>
             <label>A or B:  <input type="text" name="aOrb"></label><br>
-            <label>Year Released:  </label><input type="text" name="yearReleased" value="<%= url.includes('anni') ? value='2020' : value='2021' %>"><br>
-            <label>Value:  </label><input type="number" name="value"><br>
-            <label>Image:  </label><input type="url" name="img">
+            <label>Year Released:  <input type="text" name="yearReleased" value="<%= url.includes('anni') ? value='2020' : value='2021' %>"></label><br>
+            <label>Value:  <input type="number" name="value"></label><br>
+            <label>Image:  <input type="url" name="img"></label>
             <button class="enter" type="submit" style="background-color: goldenrod; border: 2px rgb(250, 250, 248) solid; border-radius: 3px;padding: 3px; width: 75px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color:rgb(94, 92, 12); margin: 20px;">ENTER</button>
         </form>
     </div>
