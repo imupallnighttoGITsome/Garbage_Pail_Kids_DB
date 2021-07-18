@@ -1,7 +1,8 @@
 body {
+    background-image: url(https://i.imgur.com/pecJooY.jpg);
+    background-size: 100%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(214, 218, 218);
     align-items: center;
     justify-content: center;
     
@@ -9,37 +10,80 @@ body {
 /*============ NAV BAR ==================*/
 .nav-bar { 
     display: flex;
-    font-family: Double Feature; 
+    font-family: Good Choice;    
     font-size: 20px;
     flex-direction: row; 
     margin-top: 10px; 
     padding: 0px;
-    align-content: center; 
+    align-content: left; 
     justify-content: space-around;
-    width: 800px;
+    width: 900px;
     list-style-type: none;
 }
+
 a {
-    background-color: rgb(196, 248, 148); 
-    padding: 2px 2px 0px 2px; 
-    border: solid 2px rgb(35, 194, 4); 
     border-radius: 3px; 
-    color: rgb(43, 182, 1); 
+    color: rgb(235, 250, 193);;
+    letter-spacing: 1px;
     text-decoration: none;
 }
+.entersite {
+    background: none;
+    font-family: Double Feature;
+    font-size: 65px; 
+    text-align: center;
+    color: rgb(253, 253, 244);
+    letter-spacing: 5px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(250, 141, 117);
+}
 a:hover {
-    background-color: rgb(2, 75, 2);
-    color: bisque;
+    background-color: rgba(255, 255, 255, 0.363); 
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(250, 2, 175); 
     text-decoration: none;
-    padding: 2px 2px 0px 2px; 
-    border: solid 2px rgb(35, 194, 4); 
+    text-align: center;
+    padding: 2px; 
+    padding-left: 4px;
     border-radius: 3px; 
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 750px;
+
 }
 
 /*============ ADD BUTTON ===============*/
 .add-button {
-    display: block;
-    background-color: hotpink;
+    background-image: url("https://imgur.com/CKaRzXw.png");
+    background-position: right; 
+    background-repeat: no-repeat;
+    background-size: 300px 380px;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    margin: -200px 0px 10px 1000px;
+    width: 300px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.add {
+    align-items: center;
+    color: pink;
+    display: flex;
+    font-family: Good Choice;
+    font-size: 30px;
+    height: 220px;
+    justify-content: center;
+    transform: rotate(-10deg);
+    width: 280px;
+}
+.add:hover {
+    background: none;
+    border: none;
 }
 /*=========== FORM LAYOUT ===============*/
 .form {
@@ -49,54 +93,74 @@ a:hover {
     align-items: center; 
     flex-direction: column; 
     justify-content: center; 
-    border: solid #fcfae0 2px; 
+    border: solid #e4e2c5dc 2px; 
     border-radius: 4px; 
-    background-color: rgb(250, 250, 245); 
-    box-shadow: 10px 10px 5px rgb(223, 223, 219);
+    background-color: rgb(247, 247, 220); 
+    box-shadow: 10px 10px 5px rgba(14, 14, 12, 0.7);
     margin: 5px; 
-    text-align: justify; 
-    width: 430px; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
     color: red;
 }
 .form-content {
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 380px; 
-    height: 800px; 
+    width: 390px; 
+    height: 520px; 
     background-color: yellow;
     border-radius: 3px;
-    margin-bottom: 20px; 
     border: solid red 2px;
-    padding: 20px;
-    color: black
+    color: black;
+    margin-top: 10px;
+    padding: 0px 10px 10px 10px;
+    text-transform: uppercase;
 }
 label {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin: 10px;
+    font-size: 18px;
+
 }
 input {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     background-color: rgb(65, 62, 62, .3);
-    width: 300px;
+    width: 200px;
+}
+.enter-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: flex-end;
 }
 .enter {
-    background-color: goldenrod; 
-    border: 2px rgb(250, 250, 248) solid; 
-    border-radius: 3px;
-    padding: 5px; 
-    width: 75px; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:rgb(39, 38, 2); 
-    margin: 20px;
+    display: flex;
+    background: none;
+    border: none;
+    font-family: Double Feature;
+    font-size: 30px;
+    color:rgb(117, 4, 4);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(253, 252, 253);
+}
 
+.enter:hover {
+    color:rgb(238, 181, 148);
 }
     
 /*============ CARD LAYOUT ==============*/
+h1 {
+    font-family: Double Feature;
+    font-size: 65px; 
+    text-align: center;
+    color: rgb(253, 253, 244);
+    letter-spacing: 5px;
+    -webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: rgb(238, 181, 148);
+}
 .container {
     background-color: rgba(135, 136, 133, 0.473);
     border-top: solid rgb(110, 109, 109) 1px;
@@ -111,7 +175,7 @@ input {
     height: fit-content;
     margin-left: 20px;
     padding-bottom: 20px;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 .flip-card {
     background-color: transparent;
@@ -137,39 +201,73 @@ input {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-
 .card-back {
+    background-color:  rgb(245, 238, 207);
     border-radius: 4px;
-    border: 8px solid rgb(245, 238, 207);
-    border-top: 70px solid rgb(245, 238, 207);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    color: rgb(250, 1, 1);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-    text-transform: uppercase;
-    height: 320px;  
-    transform: rotateY(180deg);
-    width: 240px;
-}
-.card-info {
+    color: rgb(216, 4, 4);
     display: flex;
     flex-direction: column;
-    background-color: yellow;
-    border: 2px rgba(0, 0, 0, 0.568) solid;
-    color: black;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    height: 317px;
-    width: 197px;
+    font-family: They Perished;
+    font-size: 14px;
+    height: 395px;
+    text-transform: uppercase;
+    transform: rotateY(180deg);
+    width: 260px;
+}
+
+.card-info {
+    background-color: rgb(241, 241, 47);
+    border: 2px rgb(211, 2, 2) solid;
+    border-radius: 2px;
+    color: rgb(27, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: left;
+    height: 370px;
+    width: 240px;
+    margin: 0px 10px 2px 10px;
+}
+ul {
     list-style-type: none;
+    line-height: 30px;
+    margin-left: -30px;
     padding: none;
-    margin: none;
+
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 235px;
+    height: 150px;
+
 }
 .actionbutton {
+    align-items: center;
+    background-color: rgb(204, 167, 4);
+    border: 2px solid rgb(107, 24, 24);
+    border-radius: 3px;
+    color:rgb(252, 247, 221);
+    display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:aquamarine;
+    font-weight: 100;
+    margin: 5px;
     text-transform: uppercase;
-    text-align: center;
-    width: 100px;
+    width: 80px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(167, 123, 1);
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: black;
+    margin-top: .5px;
+    margin-left: 15px;
+    text-align: left;
 }
 

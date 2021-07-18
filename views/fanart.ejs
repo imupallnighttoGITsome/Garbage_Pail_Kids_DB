@@ -1,6 +1,6 @@
+<h1>FAN ART</h1>
 <body>
-  <h1 style="font-family: double feature; color: rgb(245, 88, 16); font-size: 75px; text-align: center;">FAN ART</h1>
-  <a href="/gpk/gallery/add" class="add-button" style="margin: 20px;">ADD ART</a>
+  <a href="/gpk/gallery/add" class="add-button">ADD ART</a>
   <div class="container">
       <% artists.forEach((artist) => { %>
           <div class="flip-card">
@@ -9,8 +9,9 @@
                       <img style="height: 400px; width: 270px; border: solid rgba(170, 173, 137) 1px;border-left: solid rgb(131, 133, 109) 1px;border-radius: 5px;" src="<%= artist.img %>">
                     </div>
                     <div class="card-back">
-                        <h2 style="background-color: antiquewhite; margin-top: -50px;"><%= artist.artist.toUpperCase() %></h2>
-                      <ul class="card-info">
+                        <h2><%= artist.artist.toUpperCase() %></h2>
+                        <div class="card-info">
+                        <ul>
                           <li>Card Name: <%= artist.cardName %></li>
                           <li>Price: $<%= artist.price %></li>
                           <li>Website:</li><br>
@@ -19,6 +20,7 @@
                   </div>
               </div>
           </div>
+        </div>
           <% }) %>  
 
       </div>

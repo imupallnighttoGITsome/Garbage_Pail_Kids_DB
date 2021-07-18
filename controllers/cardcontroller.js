@@ -71,11 +71,19 @@ router.post('/gallery/add', (req, res, next) => {
     })
       .catch(next);
   });
+  router.get('/1stseries/:id/edit', (req, res, next) => {
+    const id = req.params.id;
+    Cards.findById(id)
+    .then(card => {
+        res.render('updateform', {card})
+    })
+      .catch(next);
+  });
   router.get('/35thanniversary/:id/edit', (req, res, next) => {
     const id = req.params.id;
     Cards.findById(id)
     .then(card => {
-        res.render('updateform2', {card})
+        res.render('updateform', {card})
     })
       .catch(next);
   });
@@ -96,6 +104,16 @@ router.put('/35thanniversary/:id', (req, res, next) => {
       { new: true }
       )
       .then(cards => { res.redirect('/gpk/35thanniversary')
+    })
+      .catch(next)
+});
+router.put('/1stseries/:id', (req, res, next) => {
+    const id = req.params.id;
+    Cards.findOneAndUpdate(
+      { _id: id }, req.body,
+      { new: true }
+      )
+      .then(cards => { res.redirect('/gpk/top15')
     })
       .catch(next)
 });

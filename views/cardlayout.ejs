@@ -1,10 +1,12 @@
 <body>
-<% let url = cards[0].series.toLowerCase().split(' ').join('') %>
-<a href="/gpk/<%= url %>/add" class="add-button" style="<%= url.includes('series' || 'gallery') ? 'opacity: 0' : '' %>" >ADD CARD</a>
-
-
-<h1 style="font-family: double feature; color: rgb(228, 87, 44); font-size: 75px; text-align: center;"><%= cards[0].series.toUpperCase() %></h1>
-<div class="container">
+        <% let url = cards[0].series.toLowerCase().split(' ').join('') %>
+        <div class="title" style="<%= url.includes('series') ? 'flex-direction: column; justify-content: center; align-items: center; width: 1200px' : '' %>">
+            <h1><%= cards[0].series.toUpperCase()%></h1>
+        </div>
+        <div class="add-button" style="<%= url.includes('series' || 'gallery') ? 'opacity: 0; background: none' : '' %>" >
+            <a  href="/gpk/<%= url %>/add" class="add" style="<%= url.includes('series' || 'gallery') ? 'opacity: 0; background: none' : '' %>" >ADD CARD</a>
+        </div>
+        <div class="container">
     <% cards.forEach((card) => { %>
         <div class="flip-card">
             <div class="card-inner">
@@ -12,23 +14,27 @@
                     <img style="height: 400px; width: 270px; border: solid rgba(170, 173, 137) 1px;border-left: solid rgb(131, 133, 109) 1px;border-radius: 5px;" src="<%= card.img %>">
                   </div>
                   <div class="card-back">
-                      <h2 style="background-color: antiquewhite; margin-top: -50px;"><%= card.name.toUpperCase() %></h2>
-                    <ul class="card-info">
-                        <li>Series: <%= card.series %></li>
-                        <li>Number: <%= card.number %><%= card.aOrb %></li>
-                        <li>Year Released: <%= card.yearReleased %></li>
-                        <li>Value: $<%= card.value %></li>
+                      <h2><%= card.name.toUpperCase() %></h2>
+                      <div class="card-info">
+                      <ul>
+                          <li>Series: <%= card.series %></li>
+                          <li>Number: <%= card.number %><%= card.aOrb %></li>
+                          <li>Year Released: <%= card.yearReleased %></li>
+                          <li>Value: $<%= card.value %></li>
+                        </ul>
+                        <div class="button-container">
                         <form action="/gpk/<%= url %>/<%= card.id %>?_method=DELETE" method="POST">
-                            <input class="actionbutton" type="submit" style="<%= url.includes('series') ? 'opacity: 0' : '' %>" value="DELETE">
+                          <input class="actionbutton" type="submit" style="<%= url.includes('series') ? 'opacity: 0' : '' %>" value="DELETE">
                         </form>
-                        <form action="/gpk/<%= url %>/<%= card.id %>/edit" class="actionbutton" method="GET">
+                        <form action="/gpk/<%= url %>/<%= card.id %>/edit" method="GET">
                             <input class="actionbutton" type="submit" value="UPDATE">
                         </form>
-                        
-                    </ul>
+                    </div>
+                    </div>
+                    <p>&copy TOPPS CHEWING GUM INC.    PRINTED IN USA</p>
                 </div>
             </div>
         </div>
         <% }) %>
-    </div>
+</div>
 </body>
