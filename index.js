@@ -6,15 +6,15 @@ const ejsLayouts = require('express-ejs-layouts')
 
 
 
-app.set('view engine', 'ejs')
 app.use(ejsLayouts)
+app.set('view engine', 'ejs')
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(express.static(__dirname + '/public'))
 app.use(methodOverride('_method'))
-// app.get('/', (req, res) => {
-//     res.render('index.ejs')
-// })
+app.get('/', (req, res) => {
+    res.render('index')
+})
 
 
 const cardController = require('./controllers/cardcontroller')
