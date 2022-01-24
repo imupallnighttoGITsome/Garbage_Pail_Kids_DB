@@ -14,7 +14,7 @@ app.use(ejsLayouts)
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(express.static(__dirname + '/public'))
-app.use('/gpkcardsdb', cardController)
+app.use('/gpk', cardController)
 
 
 
