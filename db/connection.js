@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 
 const mongoURI = process.env.NODE_ENV === "production"
     ? process.env.DB_URL
-    : 'mongodb://localhost/gpkcardsdb';
+    : 'mongodb+srv://cpalmer84:jalapenos84@gpkcards.l3wd3.mongodb.net/gpk?retryWrites=true&w=majority';
     mongoose.connect((mongoURI), {
        useNewUrlParser: true,
        useCreateIndex: true,
