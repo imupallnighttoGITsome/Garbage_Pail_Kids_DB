@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 
 const cardController = require('./controllers/cardcontroller')
-app.use('/gpk', cardController)
+app.use('/', cardController)
 
 app.set('port', process.env.PORT || 4000)
 app.listen(app.get('port'), () => {
