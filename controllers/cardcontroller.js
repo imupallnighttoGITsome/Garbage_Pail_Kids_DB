@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
 
-const Cards = require('../models/cardmodel')
-const Artists = require('../models/artistmodel')
+let Cards = require('../models/cardmodel')
+let Artists = require('../models/artistmodel')
 
 router.get('/', (req, res, next) => {
     res.render('index')
