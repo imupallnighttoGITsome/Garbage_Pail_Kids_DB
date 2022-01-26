@@ -1,7 +1,7 @@
 const Card = require('../models/cardmodel')
 const seedData = require('./cardseeds.json')
 
-Card.deleteMany()
+Card.deleteMany({})
     .then(() => {
         return Card.insertMany(seedData)
     })
