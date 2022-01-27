@@ -21,7 +21,7 @@ app.use(express.static(__dirname + '/public'))
 // })
 
 //controllers
-app.use('/gpk', cardController)
+app.use('/gpkcards', cardController)
 
 //port
 app.set('port', process.env.PORT || 4000)
