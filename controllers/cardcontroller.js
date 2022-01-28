@@ -4,9 +4,8 @@ const router = express.Router()
 let Cards = require('../models/cardmodel')
 let Artists = require('../models/artistmodel')
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
     res.render('index')
-    .catch(next)
 })
 
 router.get('/top15', (req, res, next) => {
