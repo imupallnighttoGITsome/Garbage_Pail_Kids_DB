@@ -4,7 +4,7 @@
             <h1><%= cards[0].series.toUpperCase()%></h1>
         </div>
         <div class="add-button" style="<%= url.includes('series' || 'gallery') ? 'opacity: 0; background: none' : '' %>" >
-            <a  href="/gpk/<%= url %>/add" class="add" style="<%= url.includes('series' || 'gallery') ? 'opacity: 0; background: none' : '' %>" >ADD CARD</a>
+            <a  href="/gpkcards/<%= url %>/add" class="add" style="<%= url.includes('series' || 'gallery') ? 'opacity: 0; background: none' : '' %>" >ADD CARD</a>
         </div>
         <div class="container">
     <% cards.forEach((card) => { %>
