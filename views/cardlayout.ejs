@@ -23,10 +23,10 @@
                           <li>Value: $<%= card.value %></li>
                         </ul>
                         <div class="button-container">
-                        <form action="/gpk/<%= url %>/<%= card.id %>?_method=DELETE" method="POST">
+                        <form action="/gpkcards/<%= url %>/<%= card.id %>?_method=DELETE" method="POST">
                           <input class="actionbutton" type="submit" style="<%= url.includes('series') ? 'opacity: 0' : '' %>" value="DELETE">
                         </form>
-                        <form action="/gpk/<%= url %>/<%= card.id %>/edit" method="GET">
+                        <form action="/gpkcards/<%= url %>/<%= card.id %>/edit" method="GET">
                             <input class="actionbutton" type="submit" value="UPDATE">
                         </form>
                     </div>
