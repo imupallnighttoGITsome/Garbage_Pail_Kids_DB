@@ -3,7 +3,7 @@
         <span>GARBAGE PAIL KIDS</span>
         <div class="form-content">
             <% let url = card.series.toLowerCase().split(' ').join('') %>
-            <form class="update" action="/gpk/<%= url %>/<%= card.id %>?_method=put" method="POST">
+            <form class="update" action="/gpkcards/<%= url %>/<%= card.id %>?_method=put" method="POST">
                 <label>Name:  <input type="text" name="name"></label>
                 <label>Number:  <input type="number" name="number"></label>
                 <label>A or B:  <input type="text" name="aOrb"></label>
