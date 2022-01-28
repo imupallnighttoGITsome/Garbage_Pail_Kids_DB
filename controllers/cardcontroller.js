@@ -49,16 +49,16 @@ router.get('/gallery/add', (req, res) => {
 })
 router.post('/35thanniversary/add', (req, res) => {
     Cards.create(req.body)
-    .then(card => res.redirect('/gpk/35thanniversary'))
+    .then(card => res.redirect('/gpkcards/35thanniversary'))
 })
 router.post('/foodfight/add', (req, res, next) => {
     Cards.create(req.body)
-    .then(card => res.redirect('/gpk/foodfight'))
+    .then(card => res.redirect('/gpkcards/foodfight'))
     .catch(next)
 })
 router.post('/gallery/add', (req, res, next) => {
     Artists.create(req.body)
-    .then(card => res.redirect('/gpk/gallery'))
+    .then(card => res.redirect('/gpkcards/gallery'))
     .catch(next)
 })
 
@@ -92,7 +92,7 @@ router.put('/foodfight/:id', (req, res, next) => {
       { _id: id }, req.body,
       { new: true }
       )
-      .then(cards => { res.redirect('/gpk/foodfight')
+      .then(cards => { res.redirect('/gpkcards/foodfight')
     })
       .catch(next)
 });
@@ -102,7 +102,7 @@ router.put('/35thanniversary/:id', (req, res, next) => {
       { _id: id }, req.body,
       { new: true }
       )
-      .then(cards => { res.redirect('/gpk/35thanniversary')
+      .then(cards => { res.redirect('/gpkcards/35thanniversary')
     })
       .catch(next)
 });
@@ -112,26 +112,26 @@ router.put('/1stseries/:id', (req, res, next) => {
       { _id: id }, req.body,
       { new: true }
       )
-      .then(cards => { res.redirect('/gpk/top15')
+      .then(cards => { res.redirect('/gpkcards/top15')
     })
       .catch(next)
 });
 router.delete('/foodfight/:id', (req, res, next) => {
     let id = req.params.id
     Cards.findOneAndDelete({_id: id })
-    .then(cards => res.redirect('/gpk/foodfight'))
+    .then(cards => res.redirect('/gpkcards/foodfight'))
     .catch(next)
 })
 router.delete('/35thanniversary/:id', (req, res, next) => {
     let id = req.params.id
     Cards.findOneAndDelete({_id: id })
-    .then(cards => res.redirect('/gpk/35thanniversary'))
+    .then(cards => res.redirect('/gpkcards/35thanniversary'))
     .catch(next)
 })
 router.delete('/gallery/:id', (req, res, next) => {
     let id = req.params.id
     Cards.findOneAndDelete({_id: id })
-    .then(cards => res.redirect('/gpk/gallery'))
+    .then(cards => res.redirect('/gpkcards/gallery'))
     .catch(next)
 })
 module.exports = router
