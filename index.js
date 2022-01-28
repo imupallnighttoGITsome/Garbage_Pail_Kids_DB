@@ -16,9 +16,9 @@ app.use(methodOverride('_method'))
 
 //set up static files
 app.use(express.static(__dirname + '/public'))
-// app.get('/', (req, res) => {
-//     res.render('index')
-// })
+app.get('/', (req, res) => {
+    res.render('index')
+})
 
 //controllers
 app.use('/gpkcards', cardController)
