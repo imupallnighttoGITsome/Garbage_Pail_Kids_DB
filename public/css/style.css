@@ -72,7 +72,7 @@ a:hover {
 }
 .add {
     align-items: center;
-    color: pink;
+    color: rgb(252, 206, 230);
     display: flex;
     font-family: Good Choice;
     font-size: 30px;
@@ -84,7 +84,8 @@ a:hover {
 .add:hover {
     background: none;
     border: none;
-}
+    color: rgb(252, 251, 249);
+} 
 /*=========== FORM LAYOUT ===============*/
 .form {
     width: 450px; 

@@ -3,8 +3,8 @@
         <div class="title" style="<%= url.includes('series') ? 'flex-direction: column; justify-content: center; align-items: center; width: 1200px' : '' %>">
             <h1><%= cards[0].series.toUpperCase()%></h1>
         </div>
-        <div class="add-button" style="<%= url.includes('series' || 'gallery') ? 'opacity: 0; background: none' : '' %>" >
-            <a  href="/gpkcards/<%= url %>/add" class="add" style="<%= url.includes('series' || 'gallery') ? 'opacity: 0; background: none' : '' %>" >ADD CARD</a>
+        <div class="add-button" style="<%= url.includes('series') ? 'opacity: 0; background: none' : '' %>" >
+            <a  href="/gpkcards/<%= url %>/add" class="add" style="<%= url.includes('series') ? 'opacity: 0; background: none' : '' %>" >ADD CARD</a>
         </div>
         <div class="container">
     <% cards.forEach((card) => { %>
