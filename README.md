@@ -17,4 +17,7 @@ Created my first fullstack app with full CRUD functionality that utilizes EJS to
 - EJS
 
 ## User Stories
-- 
+- As a user, I would like to be able to browse different collections and checkout info for cards in the DB.
+- As a user, I would like to be able to update card information as the data changes.
+- As a user, I would like to add new cards to collection as I see fit.
+- As a user, I would like to contribute GPK specific fan art to the app.
