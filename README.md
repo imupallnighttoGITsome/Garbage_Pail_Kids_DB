@@ -16,3 +16,5 @@ Created my first fullstack app with full CRUD functionality that utilizes EJS to
 - Mongoose
 - EJS
 
+## User Stories
+- 
