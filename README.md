@@ -6,6 +6,6 @@ Created my first fullstack app with full CRUD functionality that utilizes EJS to
 
 **Visit Heroku Deploy:** [GPK DB](https://gpkcards.herokuapp.com/)
 
-###Languages and Frameworks Used
+### Languages and Frameworks Used
 - HTML 5
 -
