@@ -8,4 +8,10 @@ Created my first fullstack app with full CRUD functionality that utilizes EJS to
 
 ### Languages and Frameworks Used
 - HTML 5
--
+- Javascript
+- Express
+- CSS
+- Node.JS
+- MongoDB
+- Mongoose
+- EJS
